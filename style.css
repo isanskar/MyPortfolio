@@ -80,6 +80,10 @@ span{
     font-size: 1.6rem;
 }
 
+.links{
+    align-items: center;
+    display: flex;
+}
 
 .links a{
     display: inline-flex;
@@ -192,13 +196,13 @@ span{
 }
 
 .about-content h4{
-    font-size: 15px;
+    font-size: 1.8rem;
     color: #4a4e69;
 }
 
 .about-img img{
-    height: 360px;
-    width: 360px;
+    height: 300px;
+    width: 300px;
     border-radius: 20rem ;
 }
 
@@ -342,7 +346,26 @@ span{
     margin-bottom: 3rem;
 }
 
-.contact form{
+.contact-details{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mail-icon{
+    font-size: 50px;
+}
+
+#call-icon{
+    font-size: 50px;
+}
+
+.contact-details h3{
+    font-size: 40px;
+}
+
+/* .contact form{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
@@ -377,7 +400,7 @@ span{
 .contact form .btn{
     margin-top: 2rem;
     cursor: pointer;
-}
+} */
 
 .footer{
     background: var(--second-bg-color);
